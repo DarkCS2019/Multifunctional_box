@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSetQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmFindPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmTips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

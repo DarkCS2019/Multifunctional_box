@@ -1,0 +1,86 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FinalHomework/1.0.0": {
+        "dependencies": {
+          "ChineseCalendar": "1.0.0",
+          "System.Data.SQLite.Core": "1.0.114"
+        },
+        "runtime": {
+          "FinalHomework.dll": {}
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.114": {
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.114.0",
+            "fileVersion": "1.0.114.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.114.0"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.114.0"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.114": {
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "1.0.114"
+        }
+      },
+      "ChineseCalendar/1.0.0": {
+        "runtime": {
+          "ChineseCalendar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalHomework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.114": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZQU6AdbxWAqS8sEhrF+PhOV5I5mHx04YI3uu/c1gTNs86wPu6F3/D/kcMyArg2hm3G2U1/8aMGFICMC9iBzJTA==",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.114",
+      "hashPath": "stub.system.data.sqlite.core.netstandard.1.0.114.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.114": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yfUkYTTeTwhXMs+TC6BCbh/XZ/Db3EBC4OkujgzmkM5qf/b8HxdwukXwLh5mRC0PHmp70w52cDTkfqoQsPeyCw==",
+      "path": "system.data.sqlite.core/1.0.114",
+      "hashPath": "system.data.sqlite.core.1.0.114.nupkg.sha512"
+    },
+    "ChineseCalendar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

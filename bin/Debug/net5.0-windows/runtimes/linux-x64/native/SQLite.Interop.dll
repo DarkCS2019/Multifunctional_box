@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="https://private.eagle.to/cgi-bin/sds-private/login" />
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self' 'nonce-5a4da1ac2f1a3ad007820d88713ec9e5ba13c54b9e603547'; style-src 'self' 'unsafe-inline'" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Private System.Data.SQLite: Login/Logout</title>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed"  href="/cgi-bin/sds-private/timeline.rss" />
+<link rel="stylesheet" href="/cgi-bin/sds-private/style.css?id=3468e1c6" type="text/css" />
+</head>
+<body class="login">
+<div class="header">
+  <div class="logo">
+    <a href="/"><img src="https://private.eagle.to/cgi-bin/sds-private/logo" alt="logo" border="0"></a>
+  </div>
+  <div class="title"><small>Private System.Data.SQLite</small><br>Login/Logout</div>
+  <div class="status"><nobr>Not logged in</nobr><small><div id="clock"></div></small></div>
+</div>
+<script>
+function updateClock(){
+  var e = document.getElementById("clock");
+  if(e){
+    var d = new Date();
+    e.innerHTML=d.toISOString().replace("T"," ").replace(/:\d\d\.\d+Z/,"");
+    setTimeout("updateClock();",(60-d.getSeconds())*1000);
+  }
+}
+updateClock();
+</script>
+<div class="mainmenu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='https://private.eagle.to/cgi-bin/sds-private/doc/trunk/www/index.wiki'>Home</a><a href='https://private.eagle.to/cgi-bin/sds-private/doc/trunk/www/faq.wiki'>FAQ</a><a href='https://private.eagle.to/cgi-bin/sds-private/doc/trunk/www/downloads.wiki'>Download</a><a href='https://private.eagle.to/cgi-bin/sds-private/login'>Login</a></div>
+<div class="content"><span id="debugMsg"></span>
+
+<p>Login as a named user to access page <b>/cgi-bin/sds-private/uv/1.0.114.0/linux-x64/SQLite.Interop.dll</b>.
+<form method="POST" data-action='/cgi-bin/sds-private/login' action='/cgi-bin/sds-private/login' >
+<input type="hidden" name="g" value="/cgi-bin/sds-private/uv/1.0.114.0/linux-x64/SQLite.Interop.dll" />
+<table class="login_out">
+<tr>
+  <td class="form_label" id="userlabel1">User ID:</td>
+  <td><input type="text" id="u" aria-labelledby="userlabel1" name="u" size="30" value=""></td>
+</tr>
+<tr>
+ <td class="form_label" id="pswdlabel">Password:</td>
+ <td><input aria-labelledby="pswdlabel" type="password" id="p" name="p" value="" size="30" /></td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="checkbox" name="remember" value="1" id="remember-me" >
+  <label for="remember-me">Remember me?</label></td>
+</tr>
+<tr>
+  <td></td>
+  <td><input type="submit" name="in" value="Login">
+</tr>
+</table>
+</form>
+</div>
+<script nonce="5a4da1ac2f1a3ad007820d88713ec9e5ba13c54b9e603547">/* style.c:854 */
+function debugMsg(msg){
+var n = document.getElementById("debugMsg");
+if(n){n.textContent=msg;}
+}
+</script>
+<div class="footer">
+This page was generated in about 
+0.004s by
+Fossil version 2.15 [f08466dded] 2021-03-02 20:50:07
+</div>
+</body></html>

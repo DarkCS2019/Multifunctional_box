@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\FinalHomework.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\ChineseCalendar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\ChineseCalendar.csproj",
+        "projectName": "ChineseCalendar",
+        "projectPath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\ChineseCalendar.csproj",
+        "packagesPath": "C:\\Users\\86188\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86188\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\FinalHomework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\FinalHomework.csproj",
+        "projectName": "FinalHomework",
+        "projectPath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\FinalHomework.csproj",
+        "packagesPath": "C:\\Users\\86188\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\86188\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\ChineseCalendar.csproj": {
+                "projectPath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\ChineseCalendar\\ChineseCalendar.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.114, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

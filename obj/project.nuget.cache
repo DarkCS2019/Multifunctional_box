@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WsoOHtR9v93zyvY/NpWS4I8gEbU0dFcQbH5LBEYH/csffeIX8a612Mi9dk8a04zgOBMeJgHWlIqbNyZcMwb9Cw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\86188\\Desktop\\大二下\\c#\\大作业\\NewFinalHomework\\FinalHomework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\86188\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.114\\stub.system.data.sqlite.core.netstandard.1.0.114.nupkg.sha512",
+    "C:\\Users\\86188\\.nuget\\packages\\system.data.sqlite.core\\1.0.114\\system.data.sqlite.core.1.0.114.nupkg.sha512"
+  ],
+  "logs": []
+}
